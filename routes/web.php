@@ -22,3 +22,6 @@ Route::get('/admin/login', 'UserController@index')->name('login');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+//user------------------
+Route::get('/admin/user/index', 'UserController@index')->name('user-index');
